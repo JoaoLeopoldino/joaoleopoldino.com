@@ -33,12 +33,12 @@ export default function Footer() {
       <p className=" text-gray-500 dark:text-gray-400 mb-1 pt-2  text-left md:text-center text-xs">
         © <span className="font-medium">{new Date().getFullYear()}</span>
         <span>{` • `}</span>
-        Dzmitry Svirin{` • `}
+        Joao Leopoldino{` • `}
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-800 dark:text-gray-300  font-medium link-underline link-underline-gradient"
-          href="https://svirins.codes/feed.xml"
+          href="https://joaoleopoldino.com/feed.xml"
         >
           RSS
         </a>
@@ -52,8 +52,16 @@ export default function Footer() {
           href="https://leerob.io"
         >
           Lee Robinson
-        </a>
-        {` `}personal site,
+        </a> and 
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-800 dark:text-gray-300  font-medium link-underline link-underline-gradient"
+          href="https://svirins.codes"
+        >
+          {` `} Dzmitry Svirin
+        </a> 
+        {` `}personal sites,
         <span>almost entirely rewritten.</span>
       </p>
     </footer>

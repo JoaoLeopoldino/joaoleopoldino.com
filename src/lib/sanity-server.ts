@@ -8,7 +8,7 @@ import sanityClient from '@sanity/client';
 
 export default sanityClient({
   dataset: 'production',
-  projectId: 'c8glljln',
+  projectId: 'nerbtc6p',
   useCdn: true,
   apiVersion: '2021-03-25'
 });

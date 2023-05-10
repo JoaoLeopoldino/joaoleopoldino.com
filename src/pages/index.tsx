@@ -21,14 +21,14 @@ export default function IndexPage({
   const memoizedStacks = useMemo(() => STACKS.filter((el) => el.featured), []);
   const DynamicWakaStats = dynamic(() => import('@/components/WakaStats'));
   return (
-    <Container title="About me page | Dzmitry Svirin - svirins.codes">
+    <Container title="About me page | João Leopoldino - joaoleopoldino.com">
       <div className="flex flex-col  max-w-2xl mx-auto w-full">
         <div className="md:grid md:grid-cols-5">
           <div className="md:col-span-4 ">
             <div className="flex flex-col  max-w-2xl mx-auto w-full">
               <div className="flex flex-col items-start">
                 <h1 className="text-3xl md:text-5xl tracking-tight mb-4 capsize font-bold  text-gray-900 dark:text-gray-100">
-                  Hi, I&apos;m <span className="text-active">Dzmitry</span>
+                  Hi, I&apos;m <span className="text-active">Joao Leopoldino</span>
                 </h1>
                 <h2 className="text-[22px] md:text-2xl tracking-tight text-gray-900 dark:text-gray-100 font-normal">
                   I specialize in turning ideas into{' '}
@@ -39,13 +39,12 @@ export default function IndexPage({
             </div>
 
             <p className="text-gray-900 dark:text-gray-100 font-semibold md:text-lg mt-4 md:mt-10">
-              Full-stack developer with a passion for the React ecosystem,
-              TypeScript, and serverless backends.
+              Software developer with a passion for the Ruby ecosystem, JavaScript | Dart/Flutter | Passionate about social development | Coffee Addict ☕️
             </p>
           </div>
           <div className="hidden md:block">
             <Image
-              alt="Dzmitry Svirin"
+              alt="João Leopoldino"
               src="/me.webp"
               width={262}
               height={363}
@@ -66,8 +65,7 @@ export default function IndexPage({
           </h2>
           <ul className="list-inside list-[square] pt-2 pb-6 [&>*]:py-[0.1rem]">
             <li className="text-gray-700 dark:text-gray-400 md:text-lg">
-              10+ years of building products for clients across several
-              countries;
+            From Angola, I helped companies located in Angola, Brazil, and Holland reach their defined objectives through my contribution to the idealization and implementation of technology solutions;
             </li>
             <li className="text-gray-700 dark:text-gray-400 md:text-lg">
               currently working with regular clients, but open to new
@@ -134,27 +132,27 @@ export default function IndexPage({
               Twitter:{' '}
               <a
                 className=" text-gray-800 dark:text-gray-300  font-medium link-underline link-underline-gradient"
-                href="https://twitter.com/svirins"
+                href="https://twitter.com/JLeopoldinoSF"
               >
-                @svirins
+                @JLeopoldinoSF
               </a>
             </li>
             <li className="text-gray-700 dark:text-gray-400 md:text-lg">
               GitHub:{' '}
               <a
                 className=" text-gray-800 dark:text-gray-300  font-medium link-underline link-underline-gradient"
-                href="https://github.com/svirins"
+                href="https://github.com/JoaoLeopoldino"
               >
-                @svirins
+                @JoaoLeopoldino
               </a>
             </li>
             <li className="text-gray-700 dark:text-gray-400 md:text-lg">
               Mail:{' '}
               <a
                 className=" text-gray-800 dark:text-gray-300  font-medium  link-underline link-underline-gradient"
-                href="mailto:svirins@gmail.com"
+                href="mailto:chapacriativa@gmail.com"
               >
-                svirins@gmail.com
+                chapacriativa@gmail.com || leopogu@hotmail.com 
               </a>
             </li>
           </ul>

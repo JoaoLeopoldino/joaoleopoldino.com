@@ -40,29 +40,22 @@ interface IStackIcon {
 export const SOCIALS = [
   {
     Icon: <SiGithub />,
-    url: 'https://github.com/svirins',
+    url: 'https://github.com/JoaoLeopoldino',
     iconTitle: 'My GitHub'
   },
   {
     Icon: <SiTwitter />,
-    url: 'https://twitter.com/svirins',
+    url: 'https://twitter.com/JLeopoldinoSF',
     iconTitle: 'My Twitter'
   },
   {
     Icon: <SiGmail />,
-    url: 'mailto:svirins@gmail.com',
+    url: 'mailto:chapacriativa@gmail.com',
     iconTitle: 'My Gmail'
   }
 ];
 
 export const STACKS = [
-  {
-    Icon: <SiAlgolia />,
-    url: 'https://www.algolia.com/',
-    iconTitle: 'Algolia',
-    color: '#00BFB3',
-    featured: true
-  },
   {
     Icon: <SiAmazonaws />,
     url: 'https://aws.amazon.com/',
@@ -71,37 +64,12 @@ export const STACKS = [
     featured: true
   },
   {
-    Icon: <SiChakraui />,
-    url: 'https://chakra-ui.com/',
-    iconTitle: 'Chakra UI',
-    color: '#00BFB3',
-    featured: true
-  },
-  {
     Icon: <SiCss3 />,
     url: 'https://golang.org/',
     iconTitle: 'CSS3',
     color: '#FFC107'
   },
-  {
-    Icon: <SiDebian />,
-    url: 'https://kubernetes.io/',
-    iconTitle: 'Debian',
-    color: '#FFC107'
-  },
 
-  {
-    Icon: <SiDocker />,
-    url: 'https://kubernetes.io/',
-    iconTitle: 'Docker',
-    color: '#FFC107'
-  },
-  {
-    Icon: <SiExpress />,
-    url: 'https://www.typescriptlang.org/',
-    iconTitle: 'Express',
-    color: '#FFC107'
-  },
   {
     Icon: <SiFigma />,
     url: 'https://graphql.org/',
@@ -135,13 +103,6 @@ export const STACKS = [
     color: '#FFC107'
   },
   {
-    Icon: <SiJest />,
-    url: 'https://jestjs.io/',
-    iconTitle: 'Jest',
-    color: '#FFC107',
-    featured: true
-  },
-  {
     Icon: <SiLinux />,
     url: 'https://www.linux.org/',
     iconTitle: 'Linux',
@@ -152,12 +113,6 @@ export const STACKS = [
     Icon: <SiMapbox />,
     url: 'https://www.postgresql.org/',
     iconTitle: 'Mapbox',
-    color: '#FFC107'
-  },
-  {
-    Icon: <SiMysql />,
-    url: 'https://www.mysql.com/',
-    iconTitle: 'MySQL',
     color: '#FFC107'
   },
   {
@@ -181,19 +136,6 @@ export const STACKS = [
     featured: true
   },
   {
-    Icon: <SiPrisma />,
-    url: 'https://www.prisma.io/',
-    iconTitle: 'Prisma',
-    color: '#FFC107',
-    featured: true
-  },
-  {
-    Icon: <SiPnpm />,
-    url: 'https://www.python.org/',
-    iconTitle: 'PnPM',
-    color: '#FFC107'
-  },
-  {
     Icon: <SiReact />,
     url: 'https://www.reactjs.org/',
     iconTitle: 'React',
@@ -206,21 +148,6 @@ export const STACKS = [
     iconTitle: 'Sanity',
     color: '#FFC107',
     featured: true
-  },
-
-  {
-    Icon: <SiStripe />,
-    url: 'https://www.stripe.com/',
-    iconTitle: 'Stripe',
-    color: '#FFC107',
-    featured: true
-  },
-  {
-    Icon: <SiSupabase />,
-    url: 'https://www.supabase.com/',
-    iconTitle: 'Supabase',
-    color: '#FFC107',
-    featured: false
   },
   {
     Icon: <SiTailwindcss />,

@@ -106,7 +106,7 @@ export default function WakaStats({
             My last week coding stats taken from a{' '}
             <a
               className=" text-gray-800 dark:text-gray-300  font-medium link-underline link-underline-gradient"
-              href="https://wakatime.com/@svirins"
+              href="https://wakatime.com/@joaoleopoldino"
             >
               WakaTime
             </a>

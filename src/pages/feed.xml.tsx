@@ -4,16 +4,16 @@ import RSS from 'rss';
 import { getPosts } from '@/lib/sanity-api';
 export async function getServerSideProps({ res }: { res: ServerResponse }) {
   const feed = new RSS({
-    title: 'Dzmitry Svirin',
-    site_url: 'https://svirins.codes',
-    feed_url: 'https://svirins.codes/feed.xml'
+    title: 'João Leopoldino',
+    site_url: 'https://joaoleopoldino.com',
+    feed_url: 'https://joaoleopoldino.com/feed.xml'
   });
 
   const allPosts = await getPosts();
   allPosts.map((post) => {
     feed.item({
       title: post.title,
-      url: `https://svirins.codes/blog/${post.slug}`,
+      url: `https://joaoleopoldino.com/blog/${post.slug}`,
       date: post.date,
       description: post.excerpt
     });
