@@ -39,7 +39,7 @@ export default function IndexPage({
             </div>
 
             <p className="text-gray-900 dark:text-gray-100 font-semibold md:text-lg mt-4 md:mt-10">
-              Software developer with a passion for the Ruby ecosystem, JavaScript | Dart/Flutter | Passionate about social development | Coffee Addict ☕️
+            Software developer with a focus on the Ruby ecosystem, Dart/Flutter, and others who permit rapid bootstrapping.| Passionate about social development | Coffee Addict ☕️
             </p>
           </div>
           <div className="hidden md:block">
@@ -137,9 +137,9 @@ export default function IndexPage({
               Mail:{' '}
               <a
                 className=" text-gray-800 dark:text-gray-300  font-medium  link-underline link-underline-gradient"
-                href="mailto:chapacriativa@gmail.com"
+                href="mailto:leopogu@hotmail.com"
               >
-                chapacriativa@gmail.com || leopogu@hotmail.com 
+                leopogu@hotmail.com 
               </a>
             </li>
           </ul>

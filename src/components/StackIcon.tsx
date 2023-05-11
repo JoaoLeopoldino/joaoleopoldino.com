@@ -1,31 +1,23 @@
 import {
-  SiAlgolia,
+  SiRuby,
+  SiRubyonrails,
+  SiRubysinatra,
+  SiRubocop,
   SiAmazonaws,
-  SiChakraui,
-  SiCss3,
-  SiDebian,
-  SiDocker,
-  SiExpress,
-  SiFigma,
+  SiFlutter,
   SiFirebase,
-  SiFramer,
   SiGithub,
   SiGmail,
   SiGraphql,
   SiHeroku,
-  SiJest,
+  SiMacos,
   SiLinux,
-  SiMapbox,
-  SiMysql,
   SiNextdotjs,
   SiNodedotjs,
   SiPnpm,
   SiPostgresql,
-  SiPrisma,
   SiReact,
   SiSahibinden,
-  SiStripe,
-  SiSupabase,
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
@@ -56,6 +48,42 @@ export const SOCIALS = [
 ];
 
 export const STACKS = [
+
+  {
+    Icon: <SiRuby />,
+    url: 'https://www.ruby-lang.org/en/',
+    iconTitle: 'Ruby',
+    color: '#FFC107',
+    featured: true
+  },
+  {
+    Icon: <SiRubyonrails />,
+    url: 'https://rubyonrails.org/',
+    iconTitle: 'Ruby On Rails',
+    color: '#FFC107',
+    featured: true
+  },
+  {
+    Icon: <SiRubysinatra />,
+    url: 'https://sinatrarb.com/',
+    iconTitle: 'Sinatra',
+    color: '#FFC107',
+    featured: true
+  },
+  {
+    Icon: <SiRubocop />,
+    url: 'https://rubocop.org/',
+    iconTitle: 'Rubocop',
+    color: '#FFC107',
+    featured: true
+  },
+  {
+    Icon: <SiFlutter />,
+    url: 'https://flutter.dev/',
+    iconTitle: 'Flutter',
+    color: '#FFC107',
+    featured: true
+  },
   {
     Icon: <SiAmazonaws />,
     url: 'https://aws.amazon.com/',
@@ -64,30 +92,11 @@ export const STACKS = [
     featured: true
   },
   {
-    Icon: <SiCss3 />,
-    url: 'https://golang.org/',
-    iconTitle: 'CSS3',
-    color: '#FFC107'
-  },
-
-  {
-    Icon: <SiFigma />,
-    url: 'https://graphql.org/',
-    iconTitle: 'Figma',
-    color: '#FFC107'
-  },
-  {
     Icon: <SiFirebase />,
     url: 'https://firebase.google.com/',
     iconTitle: 'Firebase',
     color: '#FFC107',
     featured: true
-  },
-  {
-    Icon: <SiFramer />,
-    url: 'https://aws.amazon.com/',
-    iconTitle: 'Framer',
-    color: '#FFC107'
   },
   {
     Icon: <SiGraphql />,
@@ -98,7 +107,7 @@ export const STACKS = [
   },
   {
     Icon: <SiHeroku />,
-    url: 'https://elixir-lang.org/',
+    url: 'https://www.heroku.com/',
     iconTitle: 'Heroku',
     color: '#FFC107'
   },
@@ -110,14 +119,14 @@ export const STACKS = [
     featured: true
   },
   {
-    Icon: <SiMapbox />,
-    url: 'https://www.postgresql.org/',
-    iconTitle: 'Mapbox',
+    Icon: <SiMacos />,
+    url: 'https://www.apple.com/macos/ventura/',
+    iconTitle: 'macOS',
     color: '#FFC107'
   },
   {
     Icon: <SiNodedotjs />,
-    url: 'https://www.postgresql.org/',
+    url: 'https://nodejs.org/en',
     iconTitle: 'Node.js',
     color: '#FFC107'
   },

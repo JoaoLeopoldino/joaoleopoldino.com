@@ -12,7 +12,7 @@ export default function Container(props: IContainerPropsWithChildren) {
       ? {
           publishedTime: props.date,
           tags: props.tags ? props.tags : ['dev-portfolio', 'personal-website'],
-          authors: ['https://twitter.com/svirins'],
+          authors: ['https://twitter.com/JLeopoldinoSF'],
           description: props.description
         }
       : {};
@@ -24,13 +24,13 @@ export default function Container(props: IContainerPropsWithChildren) {
       title: props.title,
       article: articleMeta,
       url:
-        `https://www.svirins.codes${router.asPath}` ??
-        'https://www.svirins.codes',
+        `https://www.joaoleopoldino.com${router.asPath}` ??
+        'https://www.joaoleopoldino.com',
       type: props.type ?? 'page',
-      image: props.image ?? 'https://svirins.codes/static/images/banner.jpeg',
+      image: props.image ?? 'https://joaoleopoldino.com/static/images/banner.jpeg',
       images: [
         {
-          url: props.image ?? 'https://svirins.codes/static/images/banner.jpeg',
+          url: props.image ?? 'https://joaoleopoldino.com/static/images/banner.jpeg',
           alt: props.title
         }
       ]

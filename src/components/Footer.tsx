@@ -57,7 +57,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-800 dark:text-gray-300  font-medium link-underline link-underline-gradient"
-          href="https://svirins.codes"
+          href="https://joaoleopoldino.com"
         >
           {` `} Dzmitry Svirin
         </a> 
