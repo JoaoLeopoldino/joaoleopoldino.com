@@ -71,19 +71,6 @@ export default function IndexPage({
               currently working with regular clients, but open to new
               opportunities;
             </li>
-            <li className="text-gray-700 dark:text-gray-400 md:text-lg">
-              I live in Batumi{' '}
-              <span role="img" aria-label="wave">
-                🌊
-              </span>
-              <span role="img" aria-label="sun">
-                🔆
-              </span>
-              <span role="img" aria-label="georgia flag">
-                🇬🇪
-              </span>{' '}
-              and enjoy swimming, mountains and good movies;
-            </li>
           </ul>
 
           <h2 className="text-xl md:text-2xl mt-2 tracking-tight text-gray-700 dark:text-gray-200 font-normal">
