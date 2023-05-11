@@ -4,7 +4,7 @@ import Container from '@/components/Container';
 
 export default function NotFound() {
   return (
-    <Container title="404 – Dzmitry Svirin">
+    <Container title="404 – João Leopoldino">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <h1 className="font-bold capsize text-3xl md:text-5xl tracking-tight mb-4 capsize text-gray-900 dark:text-gray-100">
           451 – Unavailable For Extraterrestrial Reasons

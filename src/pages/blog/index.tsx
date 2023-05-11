@@ -14,7 +14,7 @@ export default function Blog({
   );
   return (
     <Container
-      title="Blog – Dzmitry Svirin"
+      title="Blog – João Leopoldino"
       description="Posts about code, dev life and 🎇 other things."
     >
       <div className="flex flex-col  max-w-2xl mx-auto w-full">

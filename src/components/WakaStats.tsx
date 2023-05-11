@@ -78,7 +78,7 @@ export default function WakaStats({
           <div className="flex flex-row space-x-1">
             <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} height="20" width={'100%'}>
               <title id="title">A bar chart showing information</title>
-              <desc id="desc">Dzmitry Svirin top 4 programming languages/</desc>
+              <desc id="desc">João Leopoldino top 4 programming languages/</desc>
               <Bar
                 color={WAKA_STATS_COLORS[0].barColor}
                 width={(datum[0].percent / 100) * WIDTH}

@@ -1,9 +1,9 @@
 {
   "private": true,
   "license": "custom",
-  "name": "svirins",
+  "name": "joaoleopoldino",
   "version": "0.7.0",
-  "author": "Dzmitry Sviryn <svirins@gmail.com>",
+  "author": "João Leopoldino <leopogu@hotmail.com>",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

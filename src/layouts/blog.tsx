@@ -13,7 +13,7 @@ export default function BlogLayout({
 }: PropsWithChildren<{ post: IPost }>) {
   return (
     <Container
-      title={`${post.title} Dzmitry Svirin`}
+      title={`${post.title} João Leopoldino`}
       description={post.excerpt}
       image={urlForImage(post.coverImage).url()}
       date={new Date(post.date).toISOString()}
@@ -36,18 +36,18 @@ export default function BlogLayout({
         <div className="flex flex-row items-start justify-between w-full mt-2 tems-center">
           <div className="flex items-center">
             <Image
-              alt="Dzmitry Svirin"
+              alt="João Leopoldino"
               height={36}
               width={36}
-              src="/svirins.png"
+              src="/me.webp"
               className="rounded-full"
             />
             <p className="ml-2 text-xs md:text-sm lg:text-base text-gray-700 dark:text-gray-400">
               <a
                 className=" text-gray-800 dark:text-gray-300  font-medium link-underline link-underline-gradient"
-                href="https://twitter.com/svirins"
+                href="https://twitter.com/JLeopoldinoSF"
               >
-                Dzmitry Svirin
+                João Leopoldino
               </a>
               {` • `}
               {new Intl.DateTimeFormat('en-US', {
