@@ -8,11 +8,13 @@ import { ThemeProvider } from 'next-themes';
 import ErrorBoundary from '@/components/ErrorBoundary';
 
 import { DEFAULT_SEO } from '@/config';
+import { Ganalytics } from '@/components/Ganalytics';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class">
       <DefaultSeo {...DEFAULT_SEO} />
+      <Ganalytics/>
       <ErrorBoundary>
         <Component {...pageProps} />
       </ErrorBoundary>

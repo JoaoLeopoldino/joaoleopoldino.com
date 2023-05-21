@@ -1,4 +1,3 @@
-import { Ganalytics } from '@/components/Ganalytics';
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 export default class MyDocument extends Document {
@@ -51,7 +50,6 @@ export default class MyDocument extends Document {
           />
         </Head>
         <body className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-          <Ganalytics/>
           <Main />
           <NextScript />
         </body>
