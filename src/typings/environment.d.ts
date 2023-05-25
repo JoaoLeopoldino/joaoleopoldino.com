@@ -6,7 +6,7 @@ declare global {
     interface ProcessEnv {
       NEXT_PUBLIC_SANITY_DATASET: 'development';
       NEXT_PUBLIC_SANITY_PROJECT_ID: string;
-      NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: string;
+      GOOGLE_ANALYTICS_ID: string;
       NODE_ENV: 'development' | 'production';
       VERCEL_ENV: 'development' | 'production';
       SANITY_API_TOKEN: string;
