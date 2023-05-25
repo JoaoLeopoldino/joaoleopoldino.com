@@ -33,7 +33,7 @@ module.exports = withBundleAnalyzer({
 
 const ContentSecurityPolicy = `
     default-src 'self';
-    script-src 'self' 'unsafe-eval' 'unsafe-inline'  *.spotify.com *.youtube.com;
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' *.googletagmanager.com  *.spotify.com *.youtube.com;
     child-src *.youtube.com  *.spotify.com ;
     style-src 'self' 'unsafe-inline'  *.spotify.com;
     img-src * blob: data:;
