@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class">
       <DefaultSeo {...DEFAULT_SEO} />
-      <Ganalytics />
+      <Ganalytics GA_TRACKING_ID={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}/>
       <ErrorBoundary>
         <Component {...pageProps} />
       </ErrorBoundary>
