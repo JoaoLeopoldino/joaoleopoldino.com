@@ -1,7 +1,7 @@
 export const NAV_LINKS = [
   { href: '/', text: 'About' },
-  { href: '/blog', text: 'Blog' },
-  { href: '/snippets', text: 'Snippets' }
+  //{ href: '/blog', text: 'Blog' },
+  //{ href: '/snippets', text: 'Snippets' }
 ];
 
 export const AUTHOR = {
@@ -24,10 +24,10 @@ export const DEFAULT_SEO = {
     site_name: 'joaoleopoldino.com',
     images: [
       {
-        url: 'https://www.joaoleopoldino.com/social-banner.webp',
+        url: 'https://www.joaoleopoldino.com/calumbo.webp',
         width: 1200,
         height: 675,
-        alt: 'My cat and my gear',
+        alt: 'My beautiful place, Calumbo',
         type: 'image/webp'
       }
     ]
